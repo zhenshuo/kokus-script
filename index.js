@@ -1,5 +1,6 @@
 const glossaryConverter = require("./glossaryConverter");
 const intentsImporter = require("./intentsImporter");
+const intentsDelete = require("./intentsDelete");
 
 var args = process.argv.slice(2);
 if (args) {
@@ -7,8 +8,11 @@ if (args) {
     case "glossary":
       glossaryConverter.createDocument("Glossary-20180803.csv");
       break;
-    case "intents":
+    case "import-intents":
       intentsImporter.importIntents();
+      break;
+    case "delete-intents":
+      intentsDelete.deleteIntents();
       break;
     default:
       break;

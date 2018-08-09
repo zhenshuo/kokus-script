@@ -1,6 +1,7 @@
 const fse = require("fs-extra");
 const path = require("path");
 const csv = require("fast-csv");
+const numeral = require("numeral");
 const addIntents = require("./_intents");
 const upload = require("./_upload");
 
@@ -89,7 +90,7 @@ const convert = async config => {
           data[0].split("\r\n").forEach(q => {
             const utterance = {
               text: q,
-              intentName: "faq_" + (i - 1).toString()
+              intentName: "faq_" + numeral(i - 1).format("000000")
             };
             utterances.push(utterance);
           });
@@ -116,7 +117,7 @@ const convert = async config => {
 exports.importIntents = async sourceFileName => {
   // await convert(configParse);
   for(let i = 1; i < 590; i ++) {
-    configAddIntents.intentList.push("faq_" + i);
+    configAddIntents.intentList.push(numeral("faq_" + i).format("00000"));
   }
   await addIntents(configAddIntents);
   // await upload(configAddUtterances);
