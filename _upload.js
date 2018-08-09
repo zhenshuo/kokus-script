@@ -7,7 +7,7 @@ var path = require('path');
 var request = require('requestretry');
 
 // time delay between requests
-const delayMS = 500;
+const delayMS = 1000;
 
 // retry recount
 const maxRetry = 5;
@@ -21,9 +21,7 @@ var retryStrategy = function (err, response, body) {
 
 // main function to call
 var upload = async (config) => {
-
     try{
-      
         // read in utterances
         var entireBatch = await fse.readJson(config.inFile);
 
@@ -33,7 +31,7 @@ var upload = async (config) => {
         var uploadPromises = [];
 
         // load up promise array
-        pages.forEach(page => {
+        pages.forEach((page, index) => {
             config.uri = "https://westus.api.cognitive.microsoft.com/luis/api/v2.0/apps/{appId}/versions/{versionId}/examples".replace("{appId}", config.LUIS_appId).replace("{versionId}", config.LUIS_versionId)
             var pagePromise = sendBatchToApi({
                 url: config.uri,
@@ -47,7 +45,7 @@ var upload = async (config) => {
                 maxAttempts: maxRetry,
                 retryDelay: delayMS,
                 retryStrategy: retryStrategy
-            });
+            }, 5000 * index);
 
             uploadPromises.push(pagePromise);
         })
@@ -96,14 +94,20 @@ var getPagesForBatch = (batch, maxItems) => {
     }
 }
 
-// send json batch as post.body to API
-var sendBatchToApi = async (options) => {
-    try {
+const timeout = (ms) => {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
+// send json batch as post.body to API
+var sendBatchToApi = async (options, ms) => {
+    try {
+        await timeout(ms);
         var response = await request(options);
+        console.log("seconds, ", ms/ 1000);
         //return {page: options.body, response:response};
         return {response:response};
     }catch(err){
+        console.log("error, ", err);
         throw err;
     }   
 }   

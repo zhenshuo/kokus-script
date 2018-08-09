@@ -83,14 +83,15 @@ const convert = async config => {
 
     var csvStream = csv()
       .on("data", function(data) {
-        if (i++ === 0) {
+        if (i++ === 0 || i > 491) {
           return;
         }
         if (data) {
           data[0].split("\r\n").forEach(q => {
+            if(q==="") return;
             const utterance = {
               text: q,
-              intentName: "faq_" + numeral(i - 1).format("000000")
+              intentName: "faq_" + numeral(i - 1).format("00000")
             };
             utterances.push(utterance);
           });
@@ -116,9 +117,9 @@ const convert = async config => {
 
 exports.importIntents = async sourceFileName => {
   // await convert(configParse);
-  for(let i = 1; i < 590; i ++) {
-    configAddIntents.intentList.push(numeral("faq_" + i).format("00000"));
-  }
-  await addIntents(configAddIntents);
-  // await upload(configAddUtterances);
+  // for(let i = 1; i <= 490; i ++) {
+  //   configAddIntents.intentList.push("faq_" + numeral(i).format("00000"));
+  // }
+  // await addIntents(configAddIntents);
+  await upload(configAddUtterances);
 };

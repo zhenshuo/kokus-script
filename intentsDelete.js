@@ -7,6 +7,8 @@ const LUIS_authoringKey = "6e8cf98046e44a98be7f5fe53a6369c7";
 
 let intents = [];
 
+const pattern = "faq_";
+
 var configGetIntents = {
   LUIS_subscriptionKey: LUIS_authoringKey,
   LUIS_appId: LUIS_appId,
@@ -21,7 +23,7 @@ exports.deleteIntents = async () => {
     intents = JSON.parse(response);
     intents.forEach(async (i, index) => {
       const intentUri = url + "/" + i.id;
-      if(i.name.includes("faq_")) await deleteIntent(intentUri, configGetIntents.LUIS_subscriptionKey, 2000 * index, () => {});
+      if(i.name.includes(pattern)) await deleteIntent(intentUri, configGetIntents.LUIS_subscriptionKey, 2000 * index, () => {});
     });
   });
 }
