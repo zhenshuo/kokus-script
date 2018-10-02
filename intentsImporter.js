@@ -91,6 +91,7 @@ const convert = async config => {
             if(q==="") return;
             const utterance = {
               text: q,
+              answer: data[1],
               intentName: "faq_" + numeral(i - 1).format("00000")
             };
             utterances.push(utterance);
@@ -116,10 +117,10 @@ const convert = async config => {
 };
 
 exports.importIntents = async sourceFileName => {
-  // await convert(configParse);
+  await convert(configParse);
   // for(let i = 1; i <= 490; i ++) {
   //   configAddIntents.intentList.push("faq_" + numeral(i).format("00000"));
   // }
   // await addIntents(configAddIntents);
-  await upload(configAddUtterances);
+  // await upload(configAddUtterances);
 };

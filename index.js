@@ -6,7 +6,8 @@ var args = process.argv.slice(2);
 if (args) {
   switch (args[0]) {
     case "glossary":
-      glossaryConverter.createDocument("Glossary-20180803.csv");
+    // uploading glossary to IBM cloudant
+      glossaryConverter.createDocument("Glossary20180928.csv");
       break;
     case "import-intents":
       intentsImporter.importIntents();
