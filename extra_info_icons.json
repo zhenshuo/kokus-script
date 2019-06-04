@@ -1,0 +1,822 @@
+[
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 17,
+    "type": "start",
+    "value": "icons"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 18,
+    "type": "image",
+    "value": "image/見積り例1/saidan.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 19,
+    "type": "paragraph",
+    "value": "祭壇"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 20,
+    "type": "image",
+    "value": "image/見積り例1/hitsugi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 21,
+    "type": "paragraph",
+    "value": "御棺"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 22,
+    "type": "image",
+    "value": "image/見積り例1/okotsubako.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 23,
+    "type": "paragraph",
+    "value": "お骨箱セット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 24,
+    "type": "image",
+    "value": "image/見積り例1/shashin.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 25,
+    "type": "paragraph",
+    "value": "遺影写真"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 26,
+    "type": "image",
+    "value": "image/見積り例1/zoukagaku.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 27,
+    "type": "paragraph",
+    "value": "造花額"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 28,
+    "type": "image",
+    "value": "image/見積り例1/dryice.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 29,
+    "type": "paragraph",
+    "value": "ドライアイス"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 30,
+    "type": "image",
+    "value": "image/見積り例1/reijou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 31,
+    "type": "paragraph",
+    "value": "会葬礼状"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 32,
+    "type": "image",
+    "value": "image/見積り例1/kiyomejio.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 33,
+    "type": "paragraph",
+    "value": "清め塩"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 34,
+    "type": "image",
+    "value": "image/見積り例1/kashi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 35,
+    "type": "paragraph",
+    "value": "お供物"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 36,
+    "type": "image",
+    "value": "image/見積り例1/komono.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 37,
+    "type": "paragraph",
+    "value": "小物、付属品"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 38,
+    "type": "image",
+    "value": "image/見積り例1/makura.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 39,
+    "type": "paragraph",
+    "value": "枕飾りセット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 40,
+    "type": "image",
+    "value": "image/見積り例1/senkourousoku.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 41,
+    "type": "paragraph",
+    "value": "線香、ローソク"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 42,
+    "type": "image",
+    "value": "image/見積り例1/shoukou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 43,
+    "type": "paragraph",
+    "value": "焼香セット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 44,
+    "type": "image",
+    "value": "image/見積り例1/butsui.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 45,
+    "type": "paragraph",
+    "value": "仏衣一式"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 46,
+    "type": "image",
+    "value": "image/見積り例1/noukan.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 47,
+    "type": "paragraph",
+    "value": "納棺一式"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 48,
+    "type": "image",
+    "value": "image/見積り例1/shochiryou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 49,
+    "type": "paragraph",
+    "value": "処置料"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 50,
+    "type": "image",
+    "value": "image/見積り例1/hanataba.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 51,
+    "type": "paragraph",
+    "value": "花束"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 52,
+    "type": "image",
+    "value": "image/見積り例1/atokazari.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 53,
+    "type": "paragraph",
+    "value": "後飾りセット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 54,
+    "type": "image",
+    "value": "image/見積り例1/giten.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 55,
+    "type": "paragraph",
+    "value": "儀典セット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 56,
+    "type": "image",
+    "value": "image/見積り例1/unei.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 57,
+    "type": "paragraph",
+    "value": "式場運営"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 58,
+    "type": "image",
+    "value": "image/見積り例1/shikai.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 59,
+    "type": "paragraph",
+    "value": "司会進行、手続代行"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 60,
+    "type": "image",
+    "value": "image/見積り例1/keibi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 61,
+    "type": "paragraph",
+    "value": "警備"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 62,
+    "type": "image",
+    "value": "image/見積り例1/monitor.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 63,
+    "type": "paragraph",
+    "value": "モニター看板"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 64,
+    "type": "image",
+    "value": "image/見積り例1/annai_kanban.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 65,
+    "type": "paragraph",
+    "value": "案内看板"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 66,
+    "type": "image",
+    "value": "image/見積り例1/kaijou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 67,
+    "type": "paragraph",
+    "value": "会場利用費"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 68,
+    "type": "image",
+    "value": "image/見積り例1/futaisetsubi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 69,
+    "type": "paragraph",
+    "value": "付帯設備"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 70,
+    "type": "image",
+    "value": "image/見積り例1/shindai.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 71,
+    "type": "paragraph",
+    "value": "寝台車2回"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 72,
+    "type": "image",
+    "value": "image/見積り例1/reikyuusha.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 73,
+    "type": "paragraph",
+    "value": "霊柩車"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 74,
+    "type": "end",
+    "value": "icons"
+  },
+
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 158,
+    "type": "start",
+    "value": "icons"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 159,
+    "type": "paragraph",
+    "value": "※2019年5月現在。"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 160,
+    "type": "image",
+    "value": "image/見積り例1/saidan.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 161,
+    "type": "paragraph",
+    "value": "祭壇"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 162,
+    "type": "image",
+    "value": "image/見積り例1/hitsugi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 163,
+    "type": "paragraph",
+    "value": "御棺"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 164,
+    "type": "image",
+    "value": "image/見積り例1/okotsubako.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 165,
+    "type": "paragraph",
+    "value": "お骨箱セット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 166,
+    "type": "image",
+    "value": "image/見積り例1/shashin.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 167,
+    "type": "paragraph",
+    "value": "遺影写真"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 168,
+    "type": "image",
+    "value": "image/見積り例1/zoukagaku.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 169,
+    "type": "paragraph",
+    "value": "造花額"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 170,
+    "type": "image",
+    "value": "image/見積り例1/dryice.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 171,
+    "type": "paragraph",
+    "value": "ドライアイス"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 172,
+    "type": "image",
+    "value": "image/見積り例1/reijou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 173,
+    "type": "paragraph",
+    "value": "会葬礼状"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 174,
+    "type": "image",
+    "value": "image/見積り例1/kiyomejio.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 175,
+    "type": "paragraph",
+    "value": "清め塩"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 176,
+    "type": "image",
+    "value": "image/見積り例1/kashi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 177,
+    "type": "paragraph",
+    "value": "お供物"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 178,
+    "type": "image",
+    "value": "image/見積り例1/komono.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 179,
+    "type": "paragraph",
+    "value": "小物、付属品"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 180,
+    "type": "image",
+    "value": "image/見積り例1/makura.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 181,
+    "type": "paragraph",
+    "value": "枕飾りセット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 182,
+    "type": "image",
+    "value": "image/見積り例1/senkourousoku.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 183,
+    "type": "paragraph",
+    "value": "線香、ローソク"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 184,
+    "type": "image",
+    "value": "image/見積り例1/shoukou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 185,
+    "type": "paragraph",
+    "value": "焼香セット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 186,
+    "type": "image",
+    "value": "image/見積り例1/butsui.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 187,
+    "type": "paragraph",
+    "value": "仏衣一式"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 188,
+    "type": "image",
+    "value": "image/見積り例1/noukan.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 189,
+    "type": "paragraph",
+    "value": "納棺一式"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 190,
+    "type": "image",
+    "value": "image/見積り例1/shochiryou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 191,
+    "type": "paragraph",
+    "value": "処置料"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 192,
+    "type": "image",
+    "value": "image/見積り例1/hanataba.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 193,
+    "type": "paragraph",
+    "value": "花束"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 194,
+    "type": "image",
+    "value": "image/見積り例1/atokazari.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 195,
+    "type": "paragraph",
+    "value": "後飾りセット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 196,
+    "type": "image",
+    "value": "image/見積り例1/giten.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 197,
+    "type": "paragraph",
+    "value": "儀典セット"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 198,
+    "type": "image",
+    "value": "image/見積り例1/unei.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 199,
+    "type": "paragraph",
+    "value": "式場運営"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 200,
+    "type": "image",
+    "value": "image/見積り例1/shikai.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 201,
+    "type": "paragraph",
+    "value": "司会進行、手続代行"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 202,
+    "type": "image",
+    "value": "image/見積り例1/keibi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 203,
+    "type": "paragraph",
+    "value": "警備"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 204,
+    "type": "image",
+    "value": "image/見積り例1/monitor.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 205,
+    "type": "paragraph",
+    "value": "モニター看板"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 206,
+    "type": "image",
+    "value": "image/見積り例1/annai_kanban.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 207,
+    "type": "paragraph",
+    "value": "案内看板"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 208,
+    "type": "image",
+    "value": "image/見積り例1/kaijou.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 209,
+    "type": "paragraph",
+    "value": "会場利用費"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 210,
+    "type": "image",
+    "value": "image/見積り例1/futaisetsubi.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 211,
+    "type": "paragraph",
+    "value": "付帯設備"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 212,
+    "type": "image",
+    "value": "image/見積り例1/shindai.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 213,
+    "type": "paragraph",
+    "value": "寝台車2回"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 214,
+    "type": "image",
+    "value": "image/見積り例1/reikyuusha.png"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 215,
+    "type": "paragraph",
+    "value": "霊柩車"
+  },
+  {
+    "id": "葬儀見積り例",
+    "intent": "db見積り依頼",
+    "order": 216,
+    "type": "end",
+    "value": "icons"
+  }
+]

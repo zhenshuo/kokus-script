@@ -1,0 +1,703 @@
+[
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 2,
+    "type": "start",
+    "value": "Table"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 3,
+    "type": "header",
+    "value": "故人様とのご関係"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 4,
+    "type": "header",
+    "value": "20代"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 5,
+    "type": "header",
+    "value": "30代"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 6,
+    "type": "header",
+    "value": "40代以上"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 7,
+    "type": "data",
+    "value": "両親"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 8,
+    "type": "data",
+    "value": "3～5万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 9,
+    "type": "data",
+    "value": "5～10万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 10,
+    "type": "data",
+    "value": "5～10万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 11,
+    "type": "data",
+    "value": "兄弟姉妹"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 12,
+    "type": "data",
+    "value": "2～3万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 13,
+    "type": "data",
+    "value": "3～5万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 14,
+    "type": "data",
+    "value": "3～5万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 15,
+    "type": "data",
+    "value": "祖父母"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 16,
+    "type": "data",
+    "value": "1～3万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 17,
+    "type": "data",
+    "value": "1～3万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 18,
+    "type": "data",
+    "value": "3～5万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 19,
+    "type": "data",
+    "value": "おじおば"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 20,
+    "type": "data",
+    "value": "1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 21,
+    "type": "data",
+    "value": "1～2万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 22,
+    "type": "data",
+    "value": "1～3万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 23,
+    "type": "data",
+    "value": "いとこ"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 24,
+    "type": "data",
+    "value": "1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 25,
+    "type": "data",
+    "value": "1～2万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 26,
+    "type": "data",
+    "value": "1～3万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 27,
+    "type": "data",
+    "value": "その他親戚・親族"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 28,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 29,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 30,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 31,
+    "type": "data",
+    "value": "友人"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 32,
+    "type": "data",
+    "value": "3～5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 33,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 34,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 35,
+    "type": "data",
+    "value": "友人の家族"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 36,
+    "type": "data",
+    "value": "3～5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 37,
+    "type": "data",
+    "value": "5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 38,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 39,
+    "type": "data",
+    "value": "知人(顔見知り程度)"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 40,
+    "type": "data",
+    "value": "3～5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 41,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 42,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 43,
+    "type": "data",
+    "value": "勤務先の上司"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 44,
+    "type": "data",
+    "value": "5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 45,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 46,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 47,
+    "type": "data",
+    "value": "勤務先の部下"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 48,
+    "type": "data",
+    "value": "5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 49,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 50,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 51,
+    "type": "data",
+    "value": "勤務先の同僚"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 52,
+    "type": "data",
+    "value": "5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 53,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 54,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 55,
+    "type": "data",
+    "value": "取引先"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 56,
+    "type": "data",
+    "value": "5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 57,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 58,
+    "type": "data",
+    "value": "5千円～1万円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 59,
+    "type": "data",
+    "value": "隣近所"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 60,
+    "type": "data",
+    "value": "3～5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 61,
+    "type": "data",
+    "value": "3～5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 62,
+    "type": "data",
+    "value": "3～5千円"
+  },
+  {
+    "id": "香典相場",
+    "intent": "db香典相場",
+    "order": 63,
+    "type": "end",
+    "value": "Table"
+  },
+
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 2,
+    "type": "start",
+    "value": "Table"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 3,
+    "type": "header",
+    "value": "地域"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 4,
+    "type": "header",
+    "value": "都道府県"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 5,
+    "type": "header",
+    "value": "ご葬儀費用合計の平均金額(おおよそ)"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 6,
+    "type": "data",
+    "value": "全国平均"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 7,
+    "type": "data",
+    "value": "-"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 8,
+    "type": "data",
+    "value": "195万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 9,
+    "type": "data",
+    "value": "北海道"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 10,
+    "type": "data",
+    "value": "北海道"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 11,
+    "type": "data",
+    "value": "154万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 12,
+    "type": "data",
+    "value": "東北"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 13,
+    "type": "data",
+    "value": "青森、岩手、秋田、宮城、山形、福島"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 14,
+    "type": "data",
+    "value": "202万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 15,
+    "type": "data",
+    "value": "関東A"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 16,
+    "type": "data",
+    "value": "茨城、栃木、群馬、千葉"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 17,
+    "type": "data",
+    "value": "238万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 18,
+    "type": "data",
+    "value": "関東B"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 19,
+    "type": "data",
+    "value": "埼玉、東京、神奈川"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 20,
+    "type": "data",
+    "value": "186万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 21,
+    "type": "data",
+    "value": "中部A"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 22,
+    "type": "data",
+    "value": "新潟、富山、石川、福井"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 23,
+    "type": "data",
+    "value": "227万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 24,
+    "type": "data",
+    "value": "中部B"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 25,
+    "type": "data",
+    "value": "山梨、長野、岐阜、静岡、愛知"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 26,
+    "type": "data",
+    "value": "245万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 27,
+    "type": "data",
+    "value": "近畿"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 28,
+    "type": "data",
+    "value": "三重、滋賀、京都、大阪、兵庫、奈良、和歌山"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 29,
+    "type": "data",
+    "value": "189万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 30,
+    "type": "data",
+    "value": "中国"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 31,
+    "type": "data",
+    "value": "鳥取、島根、岡山、広島、山口"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 32,
+    "type": "data",
+    "value": "163万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 33,
+    "type": "data",
+    "value": "四国"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 34,
+    "type": "data",
+    "value": "徳島、香川、愛媛、高知"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 35,
+    "type": "data",
+    "value": "156万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 36,
+    "type": "data",
+    "value": "九州"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 37,
+    "type": "data",
+    "value": "福岡、佐賀、長崎、熊本、大分、宮崎、鹿児島"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 38,
+    "type": "data",
+    "value": "166万円"
+  },
+  {
+    "id": "費用相場葬儀",
+    "intent": "db費用相場葬儀",
+    "order": 39,
+    "type": "end",
+    "value": "Table"
+  }
+]

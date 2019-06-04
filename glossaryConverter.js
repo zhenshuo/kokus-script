@@ -1,7 +1,7 @@
 // uploading glossary to IBM cloudant
-const request = require("request");
 const fs = require("fs");
 const utils = require('./utils');
+
 const ACCOUNT = "5c412650-c860-4841-8589-c410d2ffd8ca-bluemix";
 const PASSWORD =
   "ed49c2a51fa87d9ae8ce00423577a1de78a856529dfa9901cf163899e3c1d77a";
@@ -60,32 +60,7 @@ exports.createDocument = async sourceFileName => {
       };
       await utils.sleep(100);
       console.log(kanji);
-      await postJson(conversationLookupsUrl, jsonData);
+      await utils.postJson(conversationLookupsUrl, jsonData);
     }
-  });
-};
-
-const postJson = async (url, jsonData, callback) => {
-  return new Promise((resolve, reject) => {
-    request.post(
-      {
-        url: url,
-        header: {
-          "Content-Type": "application/json",
-          "X-Requested-With": "XMLHttpRequest"
-        },
-        json: jsonData
-      },
-      (err, response, body) => {
-        if (err) {
-          console.error(err);
-          reject(err);
-        }
-        if (callback) {
-          callback(body);
-        }
-        resolve(body);
-      }
-    );
   });
 };

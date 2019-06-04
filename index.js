@@ -1,5 +1,6 @@
 const glossaryConverter = require("./glossaryConverter");
 const intentsImporter = require("./intentsImporter");
+const extraInfoUploader = require("./extraInfoUploader");
 const intentsDelete = require("./intentsDelete");
 
 var args = process.argv.slice(2);
@@ -14,6 +15,9 @@ if (args) {
       break;
     case "delete-intents":
       intentsDelete.deleteIntents();
+      break;
+    case "extra-info":
+      extraInfoUploader.upload();
       break;
     default:
       break;
