@@ -2838,7 +2838,7 @@
    "id": "搬送依頼連絡事項",
    "intent": "db搬送依頼",
    "order": 1,
-   "type": "titile",
+   "type": "title",
    "value": "搬送依頼の際にお伝えいただく内容は？"
  },
  {
