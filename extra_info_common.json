@@ -2132,7 +2132,7 @@
    "intent": "db葬儀式場イベント",
    "order": 8,
    "type": "link",
-   "value": "<a href=”https://www.sougi.info/event_calendar” target=”_blank”>セレモニーのフェア情報</a>"
+   "value": "<a href='https://www.sougi.info/event_calendar' target='_blank'>セレモニーのフェア情報</a>"
  },
  {
    "id": "セレモニー音楽葬",
