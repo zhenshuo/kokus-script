@@ -13,7 +13,7 @@ if (args) {
       break;
     case "glossary-xlsx":
     // uploading glossary to IBM cloudant
-    glossaryXlsxConverter.createDocument("Sogi Glossary 20190607_ceremony.csv");
+    glossaryXlsxConverter.createDocument("Sogi Glossary 20190624_ceremony.xlsx");
       break;
     case "import-intents":
       intentsImporter.importIntents();
