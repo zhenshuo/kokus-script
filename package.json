@@ -17,6 +17,6 @@
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
     "requestretry": "^2.0.2",
-    "xlsx": "^0.14.3"
+    "xlsx": "^0.17.0"
   }
 }
